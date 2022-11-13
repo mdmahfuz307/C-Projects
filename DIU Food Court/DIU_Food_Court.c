@@ -21,7 +21,7 @@ void main(){
 			case 1:D:printf("\n\nSelect the food item\n");
 					printf("Item Name 	Price(Inclusive of all Taxes)\n");
 					printf("-----------------------\n");
-					printf("1.Pizza         499tk\n2.Idli          25tk\n3.Puri          40tk\n4.Return to Main Menu\n");
+					printf("1.Pizza         499tk\n2.Burger         250tk\n3.Puri          40tk\n4.Return to Main Menu\n");
 					n=input();
 					switch(n)
 					{
@@ -33,7 +33,7 @@ void main(){
 
 						case 2:ci++;orderT++;
 						system("cls");
-						printf("Idli is ordered: Qty=%d\n",ci);
+						printf("Burger is ordered: Qty=%d\n",ci);
 						goto D;						
 						break;
 
@@ -64,7 +64,7 @@ void main(){
 				}
 						if(ci>0)
 				{
-						printf("112       IDLI			%d\n",ci);
+						printf("112       Burger			%d\n",ci);
 				}
 						if(cp>0)
 				{
@@ -143,14 +143,14 @@ void main(){
 				}
 				if(ci>0)
 				{
-				printf("   IDLI		%d	 X  	  25		   %d\n",ci,ci*25);
+				printf("   Burger		%d	 X  	  250		   %d\n",ci,ci*25);
 				}
 				if(cp>0)
 				{
 				printf("   PURI		%d	 X  	  40		   %d\n",cp,cp*40);
 				}
 				printf("===================================================================\n");
-				printf("				 SUB TOTAL:    %d Tk\n\n",cd*499+ci*25+cp*40);
+				printf("				 SUB TOTAL:    %d Tk\n\n",cd*499+ci*250+cp*40);
 				printf("\t\t<---THANK YOU FOR YOUR VISIT--->\n");
 				}
 				else
