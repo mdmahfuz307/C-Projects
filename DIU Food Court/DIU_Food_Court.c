@@ -79,7 +79,7 @@ void main(){
 				}
 						if(ci>0)
 				{
-						printf("112       Burger			%d\n",ci);
+						printf("112       Burger		%d\n",ci);
 				}
 						if(cp>0)
 				{
@@ -87,7 +87,7 @@ void main(){
 				}
 				        if(ci>0)
 				{
-						printf("114       HotDog			%d\n",ci);
+						printf("114       HotDog		%d\n",ci);
 				}
 				        if(ci>0)
 				{
@@ -121,7 +121,7 @@ void main(){
 
 				case 112:if(qty<=ci && qty>=0)
 					{ci=ci-qty;
-					printf("Idli item deleted: %d \n",qty);
+					printf("Burger item deleted: %d \n",qty);
 					}
 					else{
 						printf("Quantity Limit is exceeded or invalid.Try Again\n");
@@ -183,12 +183,12 @@ void main(){
 
 			case 3:if(orderT>0)
 					{
-				printf("			DIU FOOD COURT\n    	DIU,SMART CITY,AB-411\n			MOB: +88017805811\n\n");
+				printf("			DIU FOOD COURT\n          	    DIU,SMART CITY,AB-411\n			MOB: +88017805811\n\n");
 				printf("Item Description	Qty		  Price(Tk)	  Total(Tk)\n");
 				printf("-------------------------------------------------------------------\n");
 				if(cd>0)
 				{
-				printf("   PIZZA                %d	 X       	 499		   %d\n",cd,cd*499);
+				printf("   PIZZA                %d	 X        499	           %d\n",cd,cd*499);
 				}
 				if(ci>0)
 				{
