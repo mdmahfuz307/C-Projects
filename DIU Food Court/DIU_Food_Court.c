@@ -188,7 +188,7 @@ void main(){
 				printf("-------------------------------------------------------------------\n");
 				if(cd>0)
 				{
-				printf("   PIZZA	    %d	 X       	 499		   %d\n",cd,cd*499);
+				printf("   PIZZA                %d	 X       	 499		   %d\n",cd,cd*499);
 				}
 				if(ci>0)
 				{
